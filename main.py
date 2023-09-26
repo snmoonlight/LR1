@@ -61,7 +61,7 @@ def give_audio(message):
 
 @bot.message_handler(commands=['repository'])
 def main(message):
-    bot.send_message(message.chat.id, 'https://github.com/snmoonlight/SNLR1Bot.git')
+    bot.send_message(message.chat.id, 'https://github.com/snmoonlight/LR1.git')
     #webbrowser.open('https://github.com/snmoonlight/SNLR1Bot.git')
 
 
